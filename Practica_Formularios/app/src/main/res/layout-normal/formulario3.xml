@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idtxtDirec"
+        android:hint="@string/txtDireccion"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/idtxtNom"
+        android:layout_alignStart="@+id/idtxtNom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idtxtTel"
+        android:hint="@string/txtTelefono"
+        android:layout_alignBaseline="@+id/txtTel"
+        android:layout_alignBottom="@+id/txtTel"
+        android:layout_alignStart="@+id/idtxtDirec" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idtxtCont"
+        android:hint="@string/txtNo_control"
+        android:layout_alignBaseline="@+id/txtControl"
+        android:layout_alignBottom="@+id/txtControl"
+        android:layout_alignStart="@+id/idtxtTel" />
+    <TextView
+        android:text="@string/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/txtFecha"
+        android:layout_below="@+id/txtControl"
+        android:layout_alignStart="@+id/txtControl" />
+
+    <TextView
+        android:text="@string/txtNo_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtControl"
+        android:layout_marginTop="29dp"
+        android:layout_marginStart="28dp"
+        android:layout_below="@+id/txtTel"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/txtDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDirec"
+        android:layout_alignBaseline="@+id/idtxtDirec"
+        android:layout_alignBottom="@+id/idtxtDirec"
+        android:layout_alignStart="@+id/txtTel" />
+
+    <TextView
+        android:text="@string/txtTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTel"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/txtDirec"
+        android:layout_alignStart="@+id/txtControl" />
+
+    <TextView
+        android:text="@string/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idtxtFech"
+        android:layout_alignBaseline="@+id/txtFecha"
+        android:layout_alignBottom="@+id/txtFecha"
+        android:layout_alignStart="@+id/idtxtCont" />
+
+    <TextView
+        android:text="@string/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNom"
+        android:textColorLink="?attr/actionModeSplitBackground"
+        android:layout_alignBaseline="@+id/idtxtNom"
+        android:layout_alignBottom="@+id/idtxtNom"
+        android:layout_alignStart="@+id/txtDirec" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idtxtNom"
+        android:hint="@string/txtNombre"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/txtControl"
+        android:layout_marginStart="26dp" />
+
+    <Button
+        android:text="@string/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSalir"
+        tools:text="@string/btnSalir"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/txtControl" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/abraham"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/btnSalir"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

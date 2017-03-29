@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practica_Formularios</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtDireccion">Dirección</string>
+    <string name="txtTelefono">Télefono</string>
+    <string name="txtNo_control">No. Control</string>
+    <string name="fecha">Fecha</string>
+    <string name="btnfecha">Elegir Fecha</string>
+    <string name="btnEnvio">Enviar Datos</string>
+    <string name="btnEditar">Editar</string>
+    <string name="btnSalir">Salir</string>
+
+</resources>
